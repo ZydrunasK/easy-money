@@ -4,7 +4,7 @@
   "description": "Website design project<br>",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server --host=localhost -port=5105 --browser=chrome",
+    "dev": "dead-server --host=localhost --port=5105 --browser=chrome",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
