@@ -14,7 +14,7 @@ Footer: <a href="https://dribbble.com/shots/5964475-404-Lost-in-Space">Lost in s
 
 'h1' element streaming word: <a href="https://dribbble.com/shots/16173757-Streaming-platform-design-concept">Live streaming</a>
 
-Brands list: <a href="https://dribbble.com/shots/15078471-Social-Media-Marketing-website">b</a>
+Brands list: <a href="https://dribbble.com/shots/15078471-Social-Media-Marketing-website">brands</a>
 
 ### Project feature/goal
 - favicon 
