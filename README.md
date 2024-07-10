@@ -8,13 +8,13 @@ You can see it <a href="#">here</a>
 
 Website page based on these designs:
 
-Main layout: <a href="https://dribbble.com/shots/14587898-Trade-Website?utm_source=pinterest&utm_campaign=pinterest_shot&utm_content=Trade+Website&utm_medium=Social_Share">Easy-money</a>
+Main layout: <a href="https://dribbble.com/shots/14587898-Trade-Website/attachments/6278885?mode=media">Easy-money</a>
 
-Footer: <a href="https://dribbble.com/shots/14587898-Trade-Website?utm_source=pinterest&utm_campaign=pinterest_shot&utm_content=Trade+Website&utm_medium=Social_Share">Lost in space</a>
+Footer: <a href="https://dribbble.com/shots/5964475-404-Lost-in-Space">Lost in space</a>
 
-'h1' element streaming word: <a href="https://dribbble.com/shots/14587898-Trade-Website?utm_source=pinterest&utm_campaign=pinterest_shot&utm_content=Trade+Website&utm_medium=Social_Share">Live streaming</a>
+'h1' element streaming word: <a href="https://dribbble.com/shots/16173757-Streaming-platform-design-concept">Live streaming</a>
 
-Brands list: <a href="https://dribbble.com/shots/14587898-Trade-Website?utm_source=pinterest&utm_campaign=pinterest_shot&utm_content=Trade+Website&utm_medium=Social_Share">b</a>
+Brands list: <a href="https://dribbble.com/shots/15078471-Social-Media-Marketing-website">b</a>
 
 ### Project feature/goal
 - favicon 
