@@ -1,25 +1,38 @@
 body {
-
+    margin: 0;
+    background-color: skyblue;
 }
 
-header {
+header,
+main > section:nth-child(1),
+main > section:nth-child(2) {
+    display: inline-block;
+    width: 1500px;
+    margin-left: calc(50% - 750px);
+    margin-top: 60px;
+    background-color: white;
+
 
 }
 
 main {
 
 }
-
-section:last-child {
-
+main > section + section {
+    margin-top: 60px;
 }
 
 div {
-
+    float: left;
+    width: 35;
+    background-color: yellow;
 }
 
 img {
-
+    float: right;
+    width: 25%;
+    background-color: red;
 }
 
-section:last-child
+
+
