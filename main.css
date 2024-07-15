@@ -15,6 +15,35 @@ main > section:nth-child(2) {
 
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+header > * {
+
+}
+
+header > nav {
+    display: flex;
+    gap: 30px;
+}
+nav > a {
+    text-decoration: none;
+    color: grey;
+
+}
+
+header > a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
 main {
 
 }
@@ -30,25 +59,6 @@ div {
 
 img {
     float: right;
-    width: 150px;
-    background-color: red;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header > img,
-header > nav,
-header > a {
-    margin: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-nav > a {
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 180px;
+    background-color: white;
 }
