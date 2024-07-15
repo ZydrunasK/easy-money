@@ -30,9 +30,25 @@ div {
 
 img {
     float: right;
-    width: 25%;
+    width: 150px;
     background-color: red;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+header > img,
+header > nav,
+header > a {
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
+nav > a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
