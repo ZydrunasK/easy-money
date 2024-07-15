@@ -1,29 +1,20 @@
 body {
     margin: 0;
     background-color: skyblue;
+    font-family: Arial;
 }
-
-header,
-main > section:nth-child(1),
-main > section:nth-child(2) {
+.container {
     display: inline-block;
     width: 1500px;
     margin-left: calc(50% - 750px);
     margin-top: 60px;
     background-color: white;
-
-
 }
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
-}
-
-header > * {
-
 }
 
 header > nav {
@@ -33,9 +24,7 @@ header > nav {
 nav > a {
     text-decoration: none;
     color: grey;
-
 }
-
 header > a {
     background-color: black;
     color: white;
@@ -43,22 +32,20 @@ header > a {
     padding: 0.5em 1em;
     border-radius: 0.5em;
 }
-
-main {
-
-}
 main > section + section {
     margin-top: 60px;
 }
-
 div {
     float: left;
     width: 35;
     background-color: yellow;
 }
-
 img {
     float: right;
     width: 180px;
     background-color: white;
+}
+.active {
+    color: black;
+    font-weight: bold;
 }
