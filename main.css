@@ -10,42 +10,48 @@ body {
     margin-top: 60px;
     background-color: white;
 }
-header {
+
+.top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
 }
 
-header > nav {
+.linkTab {
     display: flex;
-    gap: 30px;
+    gap: 35px;
 }
-nav > a {
+.active {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.inactive {
     text-decoration: none;
     color: grey;
 }
-header > a {
+.blackButton {
     background-color: black;
     color: white;
     text-decoration: none;
     padding: 0.5em 1em;
     border-radius: 0.5em;
 }
-main > section + section {
-    margin-top: 60px;
-}
-div {
+
+.text {
     float: left;
     width: 35;
     background-color: yellow;
 }
-img {
+.logo {
     float: right;
     width: 180px;
     background-color: white;
 }
-.active {
-    color: black;
-    font-weight: bold;
+.pic {
+    float: right;
+}
+.bot {
+
 }
