@@ -1,0 +1,28 @@
+.badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.main-title {
+    font-size: 60px;
+}
+.main-title > span {
+    color: blue;
+}
+.text {
+    font-size: 25px;
+    float: left;
+    width: 550px;
+    background-color: yellow;
+}
+.description {
+    color: grey;
+    font-size: 25px;
+}
+.pic-guy {
+    float: right;
+}
