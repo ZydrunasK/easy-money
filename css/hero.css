@@ -1,4 +1,4 @@
-.badge {
+.hero .badge {
     display: flex;
     align-items: center;
     gap: 0.5em;
@@ -7,23 +7,23 @@
     text-transform: uppercase;
     
 }
-.main-title {
+.hero .main-title {
     font-size: 60px;
 }
-.main-title > span {
+.hero .main-title > span {
     color: blue;
 }
-.text {
+.hero .text {
     font-size: 25px;
     float: left;
     width: 550px;
     background-color: yellow;
 }
-.description {
+.hero .description {
     color: grey;
     font-size: 25px;
 }
-.pic-guy {
+.hero .pic-guy {
     float: right;
     width: 600px;
 }
