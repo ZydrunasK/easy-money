@@ -19,13 +19,13 @@
     border-radius: 0.6em;
 }
 .button.button-blue {
-    background-color: blue;
+    background-color: #1E78F0;
     color: white;
-    border-color: blue;
+    border-color: #1E78F0;
 }
 .button.button-blue:hover {
     background-color: lightcyan;
-    color: blue;
+    color: #1E78F0;
 }
 .button.button-white {
     background-color: white;

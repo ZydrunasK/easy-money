@@ -19,8 +19,23 @@
 .trio-list .title {
     font-size: 20px;
     font-weight: bold;
-    
-}
-.trio-list .description {
 
+}
+.trio-list .trio:nth-child(1) .description {
+    color: #89B7EF;
+}
+.trio-list .trio:nth-child(2) .description {
+    color: #FFA0D3;
+}
+.trio-list .trio:nth-child(3) .description {
+    color: #8987F7;
+}
+.trio.blue {
+    background-color: #E9F3FF;
+}
+.trio.pink {
+    background-color: #FAEFF6;
+}
+.trio.purple {
+    background-color: #F2ECFF;
 }
