@@ -1,8 +1,10 @@
 body {
+    width: 100%;
     margin: 0;
     padding-bottom: 60px;
     background-color: skyblue;
     font-family: Arial;
+    overflow-x: hidden;
 }
 .container {
     display: inline-block;

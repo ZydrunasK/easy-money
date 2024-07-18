@@ -7,7 +7,6 @@ header.container {
 .main-header .logo {
     float: right;
     width: 180px;
-    background-color: white;
 }
 .main-header .main-nav {
     display: flex;
@@ -26,4 +25,13 @@ header.container {
     color: black;
     font-weight: bold;
     text-decoration: none;
+}
+.brand-list {
+    display: flex;
+    gap: 30px 100px;
+    max-height: 200px;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
 }

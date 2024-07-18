@@ -1,3 +1,9 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
 .hero .badge {
     display: flex;
     align-items: center;
@@ -7,23 +13,39 @@
     text-transform: uppercase;
     
 }
+.red {
+    background-color: red;
+    font-size: 60px;
+    width: 200px;
+    padding: 5px 20px;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    left: 160px;
+    transform: translateX(0%);
+}
 .hero .main-title {
     font-size: 60px;
 }
 .hero .main-title > span {
-    color: blue;
+    color: #1E78F0;
+}
+.hero .main-title > .crazy,
+.hero .main-title:hover > .crazy {
+    display: inline-block;
+    color: purple;
+    border: 3px solid green;
+    padding: 0 15px;
+    transform: rotate(-5deg);
 }
 .hero .text {
     font-size: 25px;
-    float: left;
     width: 550px;
-    background-color: yellow;
 }
 .hero .description {
     color: grey;
     font-size: 25px;
 }
 .hero .pic-guy {
-    float: right;
-    width: 600px;
+    width: 800px;
 }
