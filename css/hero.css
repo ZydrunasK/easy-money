@@ -13,34 +13,16 @@
     text-transform: uppercase;
     
 }
-.red {
-    background-color: red;
-    font-size: 60px;
-    width: 200px;
-    padding: 5px 20px;
-    text-align: center;
-    position: absolute;
-    top: 230px;
-    left: 160px;
-    transform: translateX(0%);
-}
 .hero .main-title {
     font-size: 60px;
 }
 .hero .main-title > span {
-    color: #1E78F0;
-}
-.hero .main-title > .crazy,
-.hero .main-title:hover > .crazy {
-    display: inline-block;
-    color: purple;
-    border: 3px solid green;
-    padding: 0 15px;
-    transform: rotate(-5deg);
+    color: #1E68F0;
 }
 .hero .text {
     font-size: 25px;
     width: 550px;
+    position: relative;
 }
 .hero .description {
     color: grey;
@@ -48,4 +30,39 @@
 }
 .hero .pic-guy {
     width: 800px;
+}
+.crazy {
+    display: inline-block;
+    color: purple;
+    border: 2px solid #00B8D7;
+    padding: 0 15px;
+    transform: rotate(-5deg);
+}
+.crazy::before,
+.crazy::after,
+.sqr::before,
+.sqr::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border: 2px solid #00B8D7;
+}
+.crazy::before {
+    top: -6px;
+    left: -6px;
+}
+.crazy::after {
+    top: -6px;
+    right: -6px;
+}
+.crazy .sqr::before {
+    bottom: -6px;
+    left: -6px;
+}
+.crazy .sqr::after {
+    bottom: -6px;
+    right: -6px;
 }

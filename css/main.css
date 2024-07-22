@@ -2,16 +2,20 @@ body {
     width: 100%;
     margin: 0;
     padding-bottom: 60px;
-    background-color: skyblue;
+    background: linear-gradient(60deg, skyblue 0%, white 45%, white 55%, pink  100%);
     font-family: Arial;
     overflow-x: hidden;
+}
+.entirebox {
+    display: inline-block;
+    position: absolute;
+    background-color: white;
 }
 .container {
     display: inline-block;
     width: 1500px;
     margin-left: calc(50% - 750px);
     margin-top: 60px;
-    background-color: white;
 }
 
 .main-footer {
@@ -20,11 +24,18 @@ body {
     justify-content: space-between;
     margin-top: 100px;
 }
-
 .main-footer > div {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }    
 .main-footer > p {
     margin: 0;
+}
+.social > a {
+    color: #808080ad;
+    padding: 10px;
+}
+.social > a:hover {
+    color: white;
+    background-color: #808080ad;
 }
